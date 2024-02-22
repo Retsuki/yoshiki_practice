@@ -5,8 +5,13 @@ body {
     background-color: #f7f2b4;
     height: 90px;
 }
+.header-logo {
+    font-size: 36px;
+    float: left;
+}
 li {
     list-style: none;
+    float: left;
 }
 .main {
     background-color: #bdf7f1;
