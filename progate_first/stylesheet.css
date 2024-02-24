@@ -23,6 +23,15 @@ li {
 .main {
     padding: 100px 80px;
 }
+.contents {
+    height: 500px;
+}
+.contents-item {
+    float: left;
+}
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+}
 .copy-container h1{
     font-size: 140px;
 }
