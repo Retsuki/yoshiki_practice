@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 /* background-imageにて背景画像を指定 */
-/* <!-- 文字を透明にする opacity--> */
+/* <!-- 文字を透明にする h1 pに分けて opacity--> */
     /* <!-- LEARN TO BE CREATIVE --> */
 .top-wrapper {
     padding: 180px 0 100px 0;
@@ -27,4 +27,26 @@ a {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+}
+.btn {
+    padding: 8px 24px;
+    color: white;
+    opacity: 0.8;
+    display: inline-block;
+}
+.signup {
+    background-color: #239b76;
+}
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+.twitter {
+    background-color: #55acee;
+}
+.btn-wrapper {
+    margin: 20px 0;
+}
+.btn-wrapper p {
+    margin: 10px;
 }
