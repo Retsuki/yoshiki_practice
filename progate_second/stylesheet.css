@@ -7,11 +7,21 @@ a {
     text-decoration: none;
 }
 /* background-imageにて背景画像を指定 */
+/* <!-- 文字を透明にする opacity--> */
+    /* <!-- LEARN TO BE CREATIVE --> */
 .top-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(https://prog-8.com/images/html/advanced/top.png);
     color: white;
     background-size: cover;
+}
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+.top-wrapper p{
+    opacity: 0.7;
 }
 .container {
     width: 1170px;
