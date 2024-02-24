@@ -50,6 +50,9 @@ li {
 .copy-container span {
     color: #ff4a4a;
 }
+.contact-form {
+    padding-top: 100px;
+}
 .footer {
     background-color: #2f5167;
     height: 120px;
