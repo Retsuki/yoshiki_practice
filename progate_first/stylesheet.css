@@ -53,6 +53,17 @@ li {
 .contact-form {
     padding-top: 100px;
 }
+input,textarea {
+    width: 400px;
+    margin: 10px 0  30px 0;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
 .footer {
     background-color: #2f5167;
     height: 120px;
