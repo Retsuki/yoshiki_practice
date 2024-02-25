@@ -99,3 +99,7 @@ background-color: rgba(34, 49, 52, 0.9);
 .heading h2{
     font-weight: normal;
 }
+.lesson {
+    float: left;
+    width: 25%;
+}
