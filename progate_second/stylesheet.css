@@ -133,3 +133,8 @@ header {
   padding-bottom: 80px;
   text-align: center;
 }
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
