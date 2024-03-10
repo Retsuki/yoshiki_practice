@@ -1,0 +1,40 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.profile-p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
