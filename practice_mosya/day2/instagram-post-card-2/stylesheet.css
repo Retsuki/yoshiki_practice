@@ -20,19 +20,26 @@ h2 {
   justify-content: space-between;
 }
 
-.name-wrapper h1 {
+.header-left {
+  display: flex;
+  gap: 16px;
+}
+
+.name-wrapper {
   color: #000;
+}
+
+.name-wrapper h1 {
   font-size: 16px;
   font-weight: normal;
 }
 
 .name-wrapper h2 {
-  color: #000;
   font-size: 12px;
   font-weight: normal;
 }
 
-.img {
+.main-img {
   width: 320px;
   height: 200px;
 }
