@@ -1,0 +1,76 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0 10px; /* 画面の幅に応じたパディングを追加 */
+}
+
+h1,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 420px; /* 最大幅を420pxに設定 */
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+  text-align: center;
+  margin: 24px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* スマートフォン向けのスタイル */
+@media (max-width: 420px) {
+  body,
+  div {
+    padding: 0 15px; /* サイドのパディングを調整 */
+  }
+
+  div {
+    width: auto; /* divの幅を自動調整に */
+    margin: 10px; /* 上下のマージンを設定 */
+  }
+}
+
+/* さらに小さいデバイスのためのスタイル調整 */
+@media (min-width: 320px) and (max-width: 420px) {
+  body {
+    padding: 0; /* 320px - 420pxの範囲でのbodyのパディングを削除 */
+  }
+}
