@@ -48,3 +48,14 @@ p {
 .text {
   font-size: 12px;
 }
+
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0 0 0;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
