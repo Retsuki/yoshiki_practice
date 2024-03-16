@@ -1,10 +1,14 @@
-body {
+body,
+p {
   margin: 0;
   padding: 0;
 }
+
 .hero-section {
   width: 320px;
+  height: 534px;
   position: relative;
+  border: 1px solid black;
 }
 
 img {
@@ -15,7 +19,30 @@ img {
   height: 365.41px;
 }
 
-.official-heading {
+header {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: normal;
+  font-size: 24px;
+}
+
+.header-container {
+  padding: 60px 40px 0;
+  display: flex;
+  justify-content: end;
+}
+
+.header-contents {
+  text-align: right;
+}
+
+.scroll-wrapper {
+  position: relative;
+}
+
+.scroll {
+  position: absolute;
+  top: 369px;
+  left: 260px;
+  transform: rotate(90deg);
+  color: black;
 }
