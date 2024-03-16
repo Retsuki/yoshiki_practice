@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+  width: 320px;
+  position: relative;
+}
+
+img {
+  position: absolute;
+  top: 132px;
+  left: 0px;
+  width: 200px;
+  height: 365.41px;
+}
+
+.official-heading {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: normal;
+}
