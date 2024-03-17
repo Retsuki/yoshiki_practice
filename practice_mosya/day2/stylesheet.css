@@ -88,7 +88,7 @@ header {
 }
 
 .paragraph p {
-  text-align: center;
+  line-height: 2;
 }
 
 .Rectangle-1 {
@@ -100,7 +100,6 @@ header {
 .iphone-image-2 {
   display: flex;
   justify-content: end;
-  margin-bottom: 10px;
 }
 
 .description-2 {
@@ -109,16 +108,85 @@ header {
   position: relative;
   display: flex;
   justify-content: center;
-  gap: 10px;
-  /* line-height: 24px; */
-}
-
-.patagraph-2 {
-  line-height: 24px;
 }
 
 .Rectangle-2 {
   position: absolute;
   left: -14px;
+  bottom: 49px;
+}
+
+.letter-section {
+  background-color: #ececec;
+  padding: 48px 14px;
+}
+
+.fan-letter {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 48px;
+}
+
+.fan-letter-send {
+  font-size: 22.4px;
+}
+
+.send-fan-letter {
+  font-size: 16px;
+}
+
+.iphone-image-3 {
+  display: flex;
+  justify-content: end;
+}
+
+.description-3 {
+  padding: 64px 0;
+  font-size: 12px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Rectangle-3 {
+  position: absolute;
+  left: -14px;
+  bottom: 49px;
+}
+
+.official-info-section {
+  padding: 48px 14px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 48px;
+}
+
+.information-get {
+  font-size: 22.4px;
+}
+
+.get-information {
+  font-size: 16px;
+}
+
+.information-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-4 {
+  padding: 64px 0;
+  font-size: 12px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Rectangle-4 {
+  position: absolute;
+  right: -16px;
   bottom: 49px;
 }
