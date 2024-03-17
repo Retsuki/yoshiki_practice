@@ -8,6 +8,8 @@ p,
 .practice-1 {
   width: 320px;
   border: 1px solid black;
+  font-family: "Noto Sans JP";
+  font-weight: 300;
 }
 
 .hero-section {
@@ -24,8 +26,6 @@ p,
 }
 
 header {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: normal;
   font-size: 24px;
 }
 
@@ -58,16 +58,13 @@ header {
   line-height: 2.4;
 }
 
-.header {
-  width: 292px;
-  height: 103px;
-  border: 1px solid black;
-  padding-bottom: 48px;
-  line-height: normal;
-}
-
 .message-section {
   padding: 48px 14px;
+}
+
+.header {
+  padding-bottom: 48px;
+  line-height: normal;
 }
 
 .message-receive {
@@ -76,29 +73,52 @@ header {
 
 .receive-message {
   font-size: 16px;
-  /* padding-bottom: 40px; */
 }
 
 .iphone-image {
-  width: 292px;
-  border: 1px solid black;
-}
-
-.iPhone {
   display: flex;
 }
 
 .description-1 {
-  width: 262.8px;
   padding: 64px 0;
   font-size: 12px;
-  text-align: center;
   position: relative;
-  margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph p {
+  text-align: center;
 }
 
 .Rectangle-1 {
   position: absolute;
-  right: -28.6px;
+  right: -16px;
+  bottom: 49px;
+}
+
+.iphone-image-2 {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.description-2 {
+  padding: 64px 0;
+  font-size: 12px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* line-height: 24px; */
+}
+
+.patagraph-2 {
+  line-height: 24px;
+}
+
+.Rectangle-2 {
+  position: absolute;
+  left: -14px;
   bottom: 49px;
 }
