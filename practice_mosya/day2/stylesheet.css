@@ -31,6 +31,22 @@ header {
   justify-content: end;
 }
 
+.here-section-message {
+  width: 320px;
+  height: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.here-section-message p {
+  padding: 64px 40.5px;
+  width: 239px;
+  height: 145px;
+  margin: 0 auto;
+}
+
 .header-contents {
   text-align: right;
 }
