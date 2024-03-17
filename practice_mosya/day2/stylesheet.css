@@ -58,21 +58,21 @@ header {
   line-height: 2.4;
 }
 
-.message-section {
+.main-section {
   padding: 48px 14px;
+}
+
+.main-section-title {
+  font-size: 22.4px;
+}
+
+.main-section-subtitle {
+  font-size: 16px;
 }
 
 .header {
   padding-bottom: 48px;
   line-height: normal;
-}
-
-.message-receive {
-  font-size: 22.4px;
-}
-
-.receive-message {
-  font-size: 16px;
 }
 
 .iphone-image {
@@ -118,21 +118,12 @@ header {
 
 .letter-section {
   background-color: #ececec;
-  padding: 48px 14px;
 }
 
 .fan-letter {
   display: flex;
   flex-direction: column;
   padding-bottom: 48px;
-}
-
-.fan-letter-send {
-  font-size: 22.4px;
-}
-
-.send-fan-letter {
-  font-size: 16px;
 }
 
 .iphone-image-3 {
@@ -154,22 +145,10 @@ header {
   bottom: 49px;
 }
 
-.official-info-section {
-  padding: 48px 14px;
-}
-
 .information {
   display: flex;
   flex-direction: column;
   padding-bottom: 48px;
-}
-
-.information-get {
-  font-size: 22.4px;
-}
-
-.get-information {
-  font-size: 16px;
 }
 
 .information-image {
