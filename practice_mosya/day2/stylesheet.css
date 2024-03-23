@@ -166,6 +166,22 @@ header {
 
 .Rectangle-4 {
   position: absolute;
-  right: -16px;
+  right: -14px;
   bottom: 49px;
+}
+
+.money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.money-container {
+  display: flex;
+  justify-content: space-between;
 }
