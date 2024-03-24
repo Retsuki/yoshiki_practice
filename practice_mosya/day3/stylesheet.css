@@ -46,6 +46,7 @@ h2 {
   flex-direction: column;
   padding: 64px 14px;
   align-items: center;
+  gap: 16px;
 }
 
 .main-title {
@@ -54,13 +55,8 @@ h2 {
   width: 100%;
 }
 
-.reason-section {
-  gap: 16px;
-}
-
 .reason-title h2 {
   font-size: 20px;
-  color: #000;
   text-align: left;
   width: 100%;
 }
@@ -87,7 +83,6 @@ h2 {
 
 .intro-title h2 {
   font-size: 20px;
-  color: #000;
   text-align: right;
   width: 100%;
 }
@@ -108,10 +103,6 @@ h2 {
   width: 90px;
 }
 
-.garaly-section {
-  gap: 16px;
-}
-
 .garaly-title {
   flex-direction: column;
   justify-content: center;
@@ -119,7 +110,26 @@ h2 {
 
 .garaly-title h2 {
   font-size: 20px;
-  color: #000;
   width: 100%;
   text-align: center;
+}
+
+.garaly-title p {
+  font-size: 12px;
+}
+
+.garaly-section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.garaly-section ul li img {
+  height: 196px;
+}
+
+.garaly-section ul li p {
+  font-size: 10px;
+  text-align: right;
 }
