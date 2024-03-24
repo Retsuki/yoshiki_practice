@@ -4,6 +4,7 @@ p,
 ul,
 li,
 a,
+h1,
 h2 {
   margin: 0;
   padding: 0;
@@ -11,23 +12,16 @@ h2 {
 
 .day3-container {
   width: 320px;
+  max-width: 320px;
+  margin: 0 auto;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
-.hero-section {
+.hero-section div {
   display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: 534px;
-}
-
-.hero-image {
-  height: 100%;
-}
-
-.hero-content {
-  display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   transform: rotate(-14deg);
   position: absolute;
   bottom: 79.449px;
@@ -35,7 +29,7 @@ h2 {
   padding: 10px;
 }
 
-.hero-content p {
+.hero-section div h1 {
   color: #fff;
   font-size: 32px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -44,80 +38,61 @@ h2 {
 .main-section {
   display: flex;
   flex-direction: column;
-  padding: 64px 14px;
+  padding: 64px 16px;
   align-items: center;
   gap: 16px;
 }
 
 .main-title {
-  display: flex;
-  align-items: center;
   width: 100%;
 }
 
+.main-title h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-title p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.image-text-contents {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.image-text-contents img {
+  height: 90px;
+  width: 90px;
+}
+
+.image-text-contents p {
+  font-size: 12px;
+  line-height: 21.6px;
+}
+
+/* practice-1 */
+.hero-section {
+  position: relative;
+  height: 534px;
+  background-image: url("./images/hero-section.png");
+}
+
+/* practice-2 */
 .reason-title h2 {
-  font-size: 20px;
   text-align: left;
-  width: 100%;
 }
 
-.reason-contents {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-}
-
-.reason-contents img {
-  height: 90px;
-  width: 90px;
-}
-
-.reason-contents p {
-  font-size: 12px;
-  line-height: 21.6px;
-}
-
-.intro-section {
-  gap: 16px;
-}
-
+/* practice-3 */
 .intro-title h2 {
-  font-size: 20px;
   text-align: right;
-  width: 100%;
 }
 
-.intro-contents {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-}
-
-.intro-contents p {
-  font-size: 12px;
-  line-height: 21.6px;
-}
-
-.intro-contents img {
-  height: 90px;
-  width: 90px;
-}
-
-.garaly-title {
-  flex-direction: column;
-  justify-content: center;
-}
-
-.garaly-title h2 {
-  font-size: 20px;
-  width: 100%;
-  text-align: center;
-}
-
-.garaly-title p {
-  font-size: 12px;
-  width: 100%;
-  text-align: center;
+/* practice-4 */
+.garaly-section {
+  background-image: url("./images/div_garaly-section.png");
 }
 
 .garaly-section ul {
@@ -136,22 +111,7 @@ h2 {
   text-align: right;
 }
 
-.goods-title {
-  flex-direction: column;
-}
-
-.goods-title h2 {
-  font-size: 20px;
-  width: 100%;
-  text-align: center;
-}
-
-.goods-title p {
-  font-size: 12px;
-  width: 100%;
-  text-align: center;
-}
-
+/* practice-5 */
 .goods-images {
   display: flex;
   justify-content: space-between;
@@ -159,26 +119,14 @@ h2 {
   flex-wrap: wrap;
 }
 
+/* practice-6 */
 .footer-title {
   display: inline-block;
   padding-bottom: 48px;
-  align-items: center;
-  text-align: center;
-}
-
-.footer-title p {
-  font-size: 20px;
-  text-align: center;
 }
 
 .footer-small {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-small p {
+  width: 100%;
   font-size: 14px;
   text-align: center;
 }
