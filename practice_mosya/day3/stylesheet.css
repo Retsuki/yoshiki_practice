@@ -3,7 +3,8 @@ p,
 .header,
 ul,
 li,
-a {
+a,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -47,20 +48,21 @@ a {
   align-items: center;
 }
 
-.reason-section {
-  gap: 16px;
-}
-
-.reason-title {
+.main-title {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-.reason-title p {
+.reason-section {
+  gap: 16px;
+}
+
+.reason-title h2 {
   font-size: 20px;
   color: #000;
   text-align: left;
+  width: 100%;
 }
 
 .reason-contents {
@@ -77,4 +79,47 @@ a {
 .reason-contents p {
   font-size: 12px;
   line-height: 21.6px;
+}
+
+.intro-section {
+  gap: 16px;
+}
+
+.intro-title h2 {
+  font-size: 20px;
+  color: #000;
+  text-align: right;
+  width: 100%;
+}
+
+.intro-contents {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.intro-contents p {
+  font-size: 12px;
+  line-height: 21.6px;
+}
+
+.intro-contents img {
+  height: 90px;
+  width: 90px;
+}
+
+.garaly-section {
+  gap: 16px;
+}
+
+.garaly-title {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.garaly-title h2 {
+  font-size: 20px;
+  color: #000;
+  width: 100%;
+  text-align: center;
 }
