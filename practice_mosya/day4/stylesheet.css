@@ -3,9 +3,7 @@ p,
 .header,
 ul,
 li,
-a,
-h1,
-h2 {
+a {
   margin: 0;
   padding: 0;
 }
@@ -27,13 +25,84 @@ header {
 }
 
 .header-button {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0px 10px;
   background-color: #623f20;
-  color: white;
-  text-align: center;
   text-decoration: none;
   border-radius: 25px;
   height: 16px;
+}
+
+span {
   font-size: 8px;
+  color: white;
+}
+
+.header-body {
+  font-size: 54px;
+}
+
+.p1,
+.p3 {
+  text-align: right;
+}
+
+.section-hero {
+  padding: 0 16px 64px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  background-image: url(images/div_hero.png);
+  display: flex;
+  position: relative;
+  height: 464px;
+  width: 288px;
+}
+
+.hero-button {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 50px;
+  background: #fff;
+  left: 50%;
+  transform: translate(-50px, 0px);
+  bottom: 12px;
+}
+
+.hero-button button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 8px;
+}
+
+.hero-button p {
+  font-size: 8px;
+}
+
+.hero-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 0px;
+}
+
+.hero-button-container a {
+  text-decoration: none;
+  font-size: 8px;
+}
+
+.a1 {
+  border-radius: 50px;
+  border: 0.5px solid var(--Schemes-On-Tertiary-Fixed-Variant, #623f20);
+  padding: 3px 10px;
 }
