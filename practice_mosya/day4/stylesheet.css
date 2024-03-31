@@ -1,0 +1,39 @@
+body,
+p,
+.header,
+ul,
+li,
+a,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0 16px 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  align-items: center;
+}
+
+.header p {
+  color: #623f20;
+  font-size: 16px;
+}
+
+.header-button {
+  display: inline-block;
+  padding: 0px 10px;
+  background-color: #623f20;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  height: 16px;
+  font-size: 8px;
+}
