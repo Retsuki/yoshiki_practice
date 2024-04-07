@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 464px;
+  margin: auto;
+}
+
 .main-section {
   padding: 0 16px 64px 16px;
 }
